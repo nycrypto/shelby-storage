@@ -1,0 +1,10 @@
+# Never commit credentials / local configs
+.shelby/
+**/config.yaml
+**/config.yml
+**/*.key
+**/*.pem
+**/*.seed
+**/*.mnemonic
+.env
+.env.*

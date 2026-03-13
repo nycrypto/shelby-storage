@@ -82,7 +82,7 @@ CTX=my_context ./scripts/blobs.sh
 ```bash
 ./scripts/upload_unique.sh ./examples/sample.txt files/storage/text txt
 ```
-What each script does
+# What each script does
 
 • scripts/balance.sh
   • Prints APT + ShelbyUSD balance for the configured account.
@@ -95,7 +95,7 @@ What each script does
     • YYYYMMDD-HHMMSS-NANOSECONDS-RAND.ext
   • This helps avoid already exists errors.
 
-Safety / Privacy
+# Safety / Privacy
 
 Do NOT commit:
 
@@ -105,7 +105,7 @@ Do NOT commit:
 
 If you need to share debug output publicly, redact sensitive information.
 
-Troubleshooting
+# Troubleshooting
 
 If uploads are stuck in Pending, see:
 

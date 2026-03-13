@@ -64,24 +64,24 @@ If your context name is different
 
 CTX=my_context ./scripts/blobs.sh
 
-Quick start (recommended order)
+## Quick start
 
-1. Check balance:
-
+### 1) Check balance
+```bash
 ./scripts/balance.sh
 
-2. List blobs:
+2) List blobs
 
 ./scripts/blobs.sh
 
-3. Get a simple Pending/Written summary:
+3) Pending/Written summary
 
 ./scripts/status_summary.sh
 
-4. Upload a file with a unique blob name:
+4) Upload with a unique blob name
 
 ./scripts/upload_unique.sh ./examples/sample.txt files/storage/text txt
-
+```
 What each script does
 
 • scripts/balance.sh

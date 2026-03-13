@@ -18,13 +18,6 @@ This repo must NOT contain:
 - `~/.shelby/config.yaml` or any local Shelby config
 - server IP addresses or sensitive logs
 
-## Quick commands (run where Shelby CLI is installed)
-- Balance:
-  `shelby --context=shelbynet --account=default_account account balance`
-
-- List blobs:
-  `shelby --context=shelbynet --account=default_account account blobs`
-
 ## Repository structure
 - `docs/` – guides and troubleshooting
 - `tools/` – helper notes/tools (no secrets)
@@ -85,7 +78,7 @@ CTX=my_context ./scripts/blobs.sh
 ```bash
 ./scripts/upload_unique.sh ./examples/sample.txt files/storage/text txt
 ```
-# What each script does
+## What each script does
 
 • scripts/balance.sh
   • Prints APT + ShelbyUSD balance for the configured account.
@@ -98,7 +91,7 @@ CTX=my_context ./scripts/blobs.sh
     • YYYYMMDD-HHMMSS-NANOSECONDS-RAND.ext
   • This helps avoid already exists errors.
 
-# Safety / Privacy
+## Safety / Privacy
 
 Do NOT commit:
 

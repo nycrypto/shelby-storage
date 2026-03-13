@@ -1,0 +1,10 @@
+{
+  "context": "shelbynet",
+  "account_alias": "default_account",
+  "blob_name": "files/storage/example/20260310-120000-000000000-abcdef1234.txt",
+  "sha256": "REPLACE_ME",
+  "size_bytes": 0,
+  "expires": "tomorrow",
+  "status": "Pending",
+  "notes": ""
+}

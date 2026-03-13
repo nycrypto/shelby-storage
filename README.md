@@ -54,15 +54,18 @@ Override them like this:
 ```bash
 CTX=shelbynet ACCOUNT=default_account EXPIRES=tomorrow ./scripts/balance.sh
 ```
-If your account alias is different
 
+### If your account alias is different
 Change only the environment variable:
 
+```bash
 ACCOUNT=my_account ./scripts/balance.sh
+```
 
-If your context name is different
-
+### If your context name is different
+```bash 
 CTX=my_context ./scripts/blobs.sh
+```
 
 ## Quick start
 

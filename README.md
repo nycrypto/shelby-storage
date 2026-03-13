@@ -66,20 +66,20 @@ CTX=my_context ./scripts/blobs.sh
 
 ## Quick start
 
-### 1) Check balance
+1) Check balance
 ```bash
 ./scripts/balance.sh
-
+```
 2) List blobs
-
+```bash
 ./scripts/blobs.sh
-
+```
 3) Pending/Written summary
-
+```bash
 ./scripts/status_summary.sh
-
+```
 4) Upload with a unique blob name
-
+```bash
 ./scripts/upload_unique.sh ./examples/sample.txt files/storage/text txt
 ```
 What each script does

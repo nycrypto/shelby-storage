@@ -1,4 +1,3 @@
-```md
 ## Features
 - Privacy-first (no secrets in repo)
 - Simple scripts for balance/blobs/status
@@ -54,7 +53,7 @@ Override them like this:
 
 ```bash
 CTX=shelbynet ACCOUNT=default_account EXPIRES=tomorrow ./scripts/balance.sh
-
+```
 If your account alias is different
 
 Change only the environment variable:
